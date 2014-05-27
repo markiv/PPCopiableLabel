@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/markiv/PPCopiableLabel"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://github.com/markiv/PPCopiableLabel/blob/master/demo1.png", "https://github.com/markiv/PPCopiableLabel/blob/master/ib_custom_class.png"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Vikram Kriplaney" => "vikram@iphonso.com" }
