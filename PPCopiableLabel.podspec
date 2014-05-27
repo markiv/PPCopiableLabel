@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PPCopiableLabel"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A simple subclass of UILabel that allows users to copy text with a long press. Handles highlighting the label as needed."
 
   s.description  = <<-DESC
