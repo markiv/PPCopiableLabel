@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.author             = { "Vikram Kriplaney" => "vikram@iphonso.com" }
   s.social_media_url   = "http://twitter.com/krips"
 
-  s.platform     = :ios, "3.0"
+  # s.platform     = :ios, "3.0"
 
   s.source       = { :git => "https://github.com/markiv/PPCopiableLabel.git", :tag => "1.0.0" }
 
