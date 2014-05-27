@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PPCopiableLabel"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A simple subclass of UILabel that allows users to copy text with a long press. Handles highlighting the label as needed."
 
   s.description  = <<-DESC
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "3.0"
 
-  s.source       = { :git => "https://github.com/markiv/PPCopiableLabel.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/markiv/PPCopiableLabel.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
