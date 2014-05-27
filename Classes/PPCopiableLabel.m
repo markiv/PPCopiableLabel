@@ -5,10 +5,8 @@
 //  Copyright (c) 2014 iPhonso GmbH. All rights reserved.
 //
 
-#import "CopiableLabel.h"
-
-@implementation CopiableLabel
-
+#import "PPCopiableLabel.h"
+@implementation PPCopiableLabel
 - (id)initWithFrame:(CGRect)frame
 {
     if (!(self = [super initWithFrame:frame])) return nil;

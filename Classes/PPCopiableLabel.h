@@ -7,5 +7,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CopiableLabel : UILabel
+@interface PPCopiableLabel : UILabel
 @end
