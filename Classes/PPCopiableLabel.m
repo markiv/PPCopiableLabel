@@ -24,6 +24,9 @@
 {
     [self addGestureRecognizer:[[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(didLongPress:)]];
     self.userInteractionEnabled = YES;
+    if (!self.highlightedTextColor) {
+        self.highlightedTextColor = self.tintColor; // Use tint color to highlight by default
+    }
 }
 
 - (void)didLongPress:(UILongPressGestureRecognizer *)recognizer

@@ -12,6 +12,17 @@ have the ability to display the Copy menu when pressed for a second.
 
 ![](ib_custom_class.png)
 
+While it displays the menu, the label changes to _highlighted_ state, so you can easily
+customize its appearance with `UILabel`'s `highlightedTextColor` property, or within
+Interface Builder, as shown in the demo.
+
+    label.highlightedTextColor = [UIColor redColor];
+
+If no highlight color is specified, `PPCopiableLabel` takes over the label's `tintColor`,
+which is blue by default on iOS 7.
+
+![](ib_highlighted_color.png)
+
 ## Installation
 
 Install via [Cocoapods](http://cocoapods.org/). Here's a sample `Podfile`:

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PPCopiableLabel"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A simple subclass of UILabel that allows users to copy text with a long press. Handles highlighting the label as needed."
 
   s.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "Vikram Kriplaney" => "vikram@iphonso.com" }
   s.social_media_url   = "http://twitter.com/krips"
   s.platform     = :ios, "3.0"
-  s.source       = { :git => "https://github.com/markiv/PPCopiableLabel.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/markiv/PPCopiableLabel.git", :tag => "1.0.1" }
   s.source_files = "Classes/*.{h,m}"
   s.requires_arc = true
 end
